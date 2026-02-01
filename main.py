@@ -34,13 +34,4 @@ def callback(call):
         bot.answer_callback_query(call.id, "Sinyal Kanala Gönderildi!")
 
 bot.polling()
-import os
-
-# Kodun en altına, bot.polling() satırının yakınına ekle:
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    # Botu başlat
-    print("Bot çalışıyor...")
-    bot.infinity_polling()
-    
   

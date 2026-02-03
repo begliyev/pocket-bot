@@ -1,9 +1,8 @@
 # python_version=3.10
 # -*- coding: utf-8 -*-
 import os
-TG_TOKEN = os.getenv("8596852225:AAEoLPcPgtbuaaibX5ZOqMWe0XoV0lOuUI4")
-GEMINI_KEY = os.getenv("AIzaSyCasEqUCSGDWOsULuoSCSjkLrZDFlqa5K4")
-import os
+TG_TOKEN = "8596852225:AAeoLPcPgtbuaaibX5Z0qMWe0XoV0lOuUI4"
+GEMINI_KEY = "AIzaSyCasEqUCSGDWOsULuoSCSjkLrZDFlqa5K4"
 from aiohttp import web
 
 # Koyeb'in beklediği sahte web sunucusu
